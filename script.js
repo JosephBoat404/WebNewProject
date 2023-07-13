@@ -1,4 +1,4 @@
-let element = document.getElementById('Joe2');
+let element = document.getElementById('RandoColorChanger');
  
 function turnBlue() {
     let colorsele=['red','blue','green']
