@@ -23,7 +23,6 @@ function jspressed(array1){
     if(varcheck){
         inwordcheck.innerHTML ="CORRECT" ;
         inwordcheck.style.color = "green";
-        innumcheck.innerHTML =point ;
         point++;
     }else{
         inwordcheck.innerHTML ="WRONG" ;
