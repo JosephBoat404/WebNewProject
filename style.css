@@ -41,16 +41,6 @@ nav ul {
   border: 2px solid #064648; /* Modified border style */
 }
 
-/* Nav bar STARTS */
-
-/* My introduction paragraph */
-#intropara {
-  text-align: justify;
-  padding-left: 6.7px;
-  font-size: 22px;
-}
-/* ENDS */
-
 /* The gamepade icon */
 #justbutton {
   border: none;
@@ -60,19 +50,35 @@ nav ul {
 }
 /* ENDS */
 
+/* Nav bar ENDS */
+
 /* Joseph Resource hub Edits */
-h1 .RandoColorChangernone {
-  color: black;
-  font-size: 41px;
+h1 .JosephFirstText {
+  color: #052324;
+  font-size: 40px;
   padding: 6.7px;
 }
 
-h1 #RandoColorChanger {
+h1 .ResourceHubFirstText {
   color: #0f7173;
-  font-size: 29px;
+  font-size: 28px;
 }
 
 /* ENDS */
+
+/* My introduction paragraph */
+.intropara {
+  text-align: left;
+  padding-right: 770px;
+  font-size: 24px;
+  margin: 6.5px;
+  color: #052324;
+}
+/* ENDS */
+
+.SpaceControl {
+  margin: 50px;
+}
 
 /* Game UI */
 .container1,
@@ -84,6 +90,7 @@ h1 #RandoColorChanger {
   width: 400px;
   align-items: self-start;
   visibility: hidden;
+  margin-left: 6.7px;
 }
 
 .container1 > button,
@@ -92,7 +99,7 @@ h1 #RandoColorChanger {
   padding: 10px;
   text-align: center;
   font-size: 2.1rem;
-  color: black;
+  color: #052324;
   flex: 1;
   border: none;
 }
