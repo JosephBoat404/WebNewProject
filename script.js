@@ -57,15 +57,14 @@ function jspressed(array1) {
   ];
   let varcheck = elementinjs.includes(array1[rand2]);
   if (varcheck) {
-    inwordcheck.innerHTML = "CORRECT😊";
+    inwordcheck.innerHTML = `CORRECT 😊  Points: ${++point}`;
     inwordcheck.style.color = "#005b00";
     inwordcheck.style.fontWeight = "bold";
-    point++;
   } else {
-    inwordcheck.innerHTML = "WRONG😭";
+    inwordcheck.innerHTML =  `WRONG 😭  Points: ${--point}`;
     inwordcheck.style.color = "#a00000";
     inwordcheck.style.fontWeight = "bold";
-    point--;
+
   }
 }
 
@@ -90,15 +89,15 @@ function htmlpressed(array2) {
   ];
   let varcheck1 = htmlwords.includes(array2[rand2]);
   if (varcheck1) {
-    inwordcheck.innerHTML = "CORRECT😊";
+    inwordcheck.innerHTML = `CORRECT 😊  Points: ${++point}`;
     inwordcheck.style.color = "#005b00";
     inwordcheck.style.fontWeight = "bold";
-    point++;
+   
   } else {
-    inwordcheck.innerHTML = "WRONG😭";
+    inwordcheck.innerHTML = `WRONG 😭  Points: ${--point}`;
     inwordcheck.style.color = "#a00000";
     inwordcheck.style.fontWeight = "bold";
-    point--;
+   
   }
 }
 
@@ -118,15 +117,13 @@ function csspressed(array3) {
   ];
   let varcheck1 = csswords.includes(array3[rand2]);
   if (varcheck1) {
-    inwordcheck.innerHTML = "CORRECT😊";
+    inwordcheck.innerHTML = `CORRECT 😊  Points: ${++point}`;
     inwordcheck.style.color = "#005b00";
     inwordcheck.style.fontWeight = "bold";
-    point++;
   } else {
-    inwordcheck.innerHTML = "WRONG😭";
+    inwordcheck.innerHTML =  `WRONG 😭  Points: ${--point}`;
     inwordcheck.style.color = "#a00000";
     inwordcheck.style.fontWeight = "bold";
-    point--;
   }
 }
 
