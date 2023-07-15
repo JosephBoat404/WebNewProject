@@ -1,58 +1,58 @@
 /* Default fonts,backgroun color */
 
 body {
-    background-color: #ffe8d4;
-    margin: 0;
-    padding: 0;
-    font-family: 'Agdasima', 'Montserrat', 'Quicksand', 'Space Mono', sans-serif;
-  }
+  background-color: #ffe8d4;
+  margin: 0;
+  padding: 0;
+  font-family: "Agdasima", "Montserrat", "Quicksand", "Space Mono", sans-serif;
+}
 
 /* Nav bar STARTS */
 nav,
-  .nav-ul {
-    width: 100vw;
-    height: 3.21rem;
-    background-color: #0F7173;
-    padding-top: 0;
+.nav-ul {
+  width: 100vw;
+  height: 3.21rem;
+  background-color: #0f7173;
+  padding-top: 0;
 }
-  
-nav ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-  
-.navList a, .navList {
-    padding: 5.6px;
-    color: white;
-    text-decoration: none;
-    float: left;
-    text-align: center;
-    display: block;
-    font-weight: bold;
-    font-size: large;
-    border: 2px solid transparent;
-    text-align: center;
-}
-  
-.navList:hover {
-    background-color: #064648;
-    border: 2px solid #064648; /* Modified border style */
 
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navList a,
+.navList {
+  padding: 5.6px;
+  color: white;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  font-size: large;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.navList:hover {
+  background-color: #064648;
+  border: 2px solid #064648; /* Modified border style */
 }
 
 /* Nav bar STARTS */
 
 /* My introduction paragraph */
 #intropara {
-    text-align: justify;
-    padding-left: 6.7px;
-    font-size: 22px;
+  text-align: justify;
+  padding-left: 6.7px;
+  font-size: 22px;
 }
 /* ENDS */
 
 /* The gamepade icon */
-#justbutton{
+#justbutton {
   border: none;
   margin: 0;
   background-color: transparent;
@@ -68,14 +68,16 @@ h1 .RandoColorChangernone {
 }
 
 h1 #RandoColorChanger {
-  color: #0F7173;
+  color: #0f7173;
   font-size: 29px;
 }
 
 /* ENDS */
 
 /* Game UI */
-.container1,.container2,.container3 {
+.container1,
+.container2,
+.container3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -84,14 +86,15 @@ h1 #RandoColorChanger {
   visibility: hidden;
 }
 
-.container1 > button,.container2 >div,.container3 >div{
+.container1 > button,
+.container2 > div,
+.container3 > div {
   padding: 10px;
   text-align: center;
   font-size: 2.1rem;
   color: black;
   flex: 1;
   border: none;
-  
 }
 
 /* Color of the button JS,HTML,CSS START */
@@ -109,13 +112,10 @@ h1 #RandoColorChanger {
 }
 
 .container2 > div:nth-child(1) {
-  background-color: #0F7173;	
+  background-color: #0f7173;
 }
 
 /* Color of the button JS,HTML,CSS END */
-
-
-
 
 /* Hover effects for buttons STARTS */
 
@@ -134,8 +134,3 @@ h1 #RandoColorChanger {
 /* Hover effects for buttons ENDS */
 
 /* ENDS */
-
-
-
-
-
