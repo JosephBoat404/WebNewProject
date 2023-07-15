@@ -69,7 +69,7 @@ h1 .ResourceHubFirstText {
 /* My introduction paragraph */
 .intropara {
   text-align: left;
-  padding-right: 770px;
+  padding-right: 60%;
   font-size: 24px;
   margin: 6.5px;
   color: #052324;
@@ -98,7 +98,7 @@ h1 .ResourceHubFirstText {
 .container3 > div {
   padding: 10px;
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 2.0rem;
   color: #052324;
   flex: 1;
   border: none;
@@ -108,18 +108,22 @@ h1 .ResourceHubFirstText {
 
 .container1 > button:nth-child(1) {
   background-color: #ffd500;
+  color: black;
 }
 
 .container1 > button:nth-child(2) {
   background-color: rgb(255, 115, 0);
+  color: black;
 }
 
 .container1 > button:nth-child(3) {
   background-color: rgba(0, 179, 255, 0.887);
+  color: black;
 }
 
 .container2 > div:nth-child(1) {
   background-color: #0f7173;
+  color: black;
 }
 
 /* Color of the button JS,HTML,CSS END */
