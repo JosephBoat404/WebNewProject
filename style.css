@@ -47,6 +47,7 @@ nav ul {
   margin: 0;
   background-color: transparent;
   padding: 0px;
+  cursor: pointer;
 }
 /* ENDS */
 
@@ -103,6 +104,12 @@ h1 .ResourceHubFirstText {
   border: none;
 }
 
+.container3{
+  font-size: 18px;
+  font-weight: 300;
+  color: #052324;
+}
+
 /* Color of the button JS,HTML,CSS START */
 
 .container1 > button:nth-child(1) {
@@ -131,14 +138,17 @@ h1 .ResourceHubFirstText {
 
 .container1 > button:nth-child(1):hover {
   background-color: #9e8b1e;
+  cursor: pointer;
 }
 
 .container1 > button:nth-child(2):hover {
   background-color: #965c15;
+  cursor: pointer;
 }
 
 .container1 > button:nth-child(3):hover {
   background-color: #1d6fa6;
+  cursor: pointer;
 }
 
 /* Hover effects for buttons ENDS */
