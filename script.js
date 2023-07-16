@@ -45,7 +45,7 @@ inword.innerHTML = mergword[rand2]; //choose a word via index from the mergword 
 // These functions compares the random selected words to their right category. End on line 70
 
 function jspressed(array1) {
-  console.log(array1[rand2]);
+
   const elementinjs = [
     "variables",
     "loops",
@@ -69,7 +69,7 @@ function jspressed(array1) {
 }
 
 function htmlpressed(array2) {
-  console.log(array2[rand2]);
+
   const htmlwords = [
     "class",
     "id",
@@ -102,7 +102,7 @@ function htmlpressed(array2) {
 }
 
 function csspressed(array3) {
-  console.log(array3[rand2]);
+  
   const csswords = [
     "comment",
     "style rule",
@@ -136,7 +136,7 @@ jsbtn.addEventListener("click", function () {
   jspressed(mergword);
   rand2 = Math.floor(Math.random() * mergword.length);
   inword.innerHTML = mergword[rand2];
-  console.log(point);
+  
 });
 
 let htmlbtn = document.querySelector(".htmlbutton");
@@ -144,7 +144,7 @@ htmlbtn.addEventListener("click", function () {
   htmlpressed(mergword);
   rand2 = Math.floor(Math.random() * mergword.length);
   inword.innerHTML = mergword[rand2];
-  console.log(point);
+  
 });
 
 let cssbtn = document.querySelector(".cssbutton");
@@ -152,7 +152,7 @@ cssbtn.addEventListener("click", function () {
   csspressed(mergword);
   rand2 = Math.floor(Math.random() * mergword.length);
   inword.innerHTML = mergword[rand2];
-  console.log(point);
+ 
 });
 
 //Ends
@@ -171,8 +171,17 @@ justButton.addEventListener("click", function () {
   containers.forEach(function (container) {
     if (container.style.visibility === "hidden") {
       container.style.visibility = "visible";
+      justButton.style.margin="0.4px";
+      justButton.style.height = '50.4px';
+      justButton.style.outline = "1px dashed white";
+
+      
+
     } else {
       container.style.visibility = "hidden";
+      justButton.style.margin="";
+      justButton.style.height = '';
+      justButton.style.outline = "";
     }
   });
 });
