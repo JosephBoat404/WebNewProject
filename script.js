@@ -158,7 +158,7 @@ cssbtn.addEventListener("click", function () {
 //Ends
 
 // You have to click the gamepade icon to start the game
-let justButton = document.getElementById("justbutton");
+let playgamebtn = document.getElementById("playgamebtn");
 let containers = document.querySelectorAll(
   ".container1, .container2, .container3"
 );
@@ -167,21 +167,21 @@ containers.forEach(function (container) {
   container.style.visibility = "hidden";
 });
 
-justButton.addEventListener("click", function () {
+playgamebtn.addEventListener("click", function () {
   containers.forEach(function (container) {
     if (container.style.visibility === "hidden") {
       container.style.visibility = "visible";
-      justButton.style.margin="0.4px";
-      justButton.style.height = '50.4px';
-      justButton.style.outline = "1px dashed white";
+      playgamebtn.style.margin="0.4px";
+      playgamebtn.style.height = '50.4px';
+      playgamebtn.style.outline = "1px dashed white";
 
       
 
     } else {
       container.style.visibility = "hidden";
-      justButton.style.margin="";
-      justButton.style.height = '';
-      justButton.style.outline = "";
+      playgamebtn.style.margin="";
+      playgamebtn.style.height = '';
+      playgamebtn.style.outline = "";
     }
   });
 });
